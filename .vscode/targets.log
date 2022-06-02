@@ -1,3 +1,4 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
@@ -7,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  2 00:06:54 2022
+# Make data base, printed on Thu Jun  2 00:21:52 2022
 
 # Variables
 
@@ -32,12 +33,14 @@ VSCODE_LOG_NATIVE = false
 # makefile
 CURDIR := /com.docker.devenvironments.code
 # makefile
+ 
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
 PROMPT_DIRTRIM = 4
 # environment
+ 
 _ = /bin/cat
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
@@ -62,19 +65,21 @@ GOPATH = /go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-cccb8a01-86a2-4d17-85d2-5ea6ebbbe98f.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-c197b847-c8ad-4dcb-9c57-1d11d2622cca.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
 LS_COLORS = 
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-f425efebcba29b33f6f1ce78d0dbb9a32ef7e497.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-a9ad74e12532b75716f21a79138416bfebfd686c.sock
 # automatic
+ 
 %F = $(notdir $%)
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /com.docker.devenvironments.code
+ 
 # default
 .LOADED := 
 # environment
@@ -86,7 +91,7 @@ HOME = /home/vscode
 # environment
 REMOTE_CONTAINERS = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 NVM_CD_FLAGS = 
 # automatic
@@ -109,12 +114,13 @@ SHLVL = 1
 MAKE_VERSION := 4.2.1
 # environment
 USER = vscode
+ 
 # makefile
 .DEFAULT_GOAL := build
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-f425efebcba29b33f6f1ce78d0dbb9a32ef7e497.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-a9ad74e12532b75716f21a79138416bfebfd686c.sock
 # default
 MAKE_COMMAND := make
 # default
@@ -146,8 +152,9 @@ LC_ALL = C
 # default
 SUFFIXES := 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-f425efebcba29b33f6f1ce78d0dbb9a32ef7e497.sock"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-a9ad74e12532b75716f21a79138416bfebfd686c.sock"]
 # default
+ 
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # default
 .RECIPEPREFIX := 
@@ -166,9 +173,9 @@ NVM_RC_VERSION =
 
 # Directories
 
-# . (device 2096, inode 24266): 8 files, no impossibilities.
+# . (device 2096, inode 24266): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -226,12 +233,12 @@ run:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 125 B / avg = 7 B
-# current buf: size = 8162 B / used = 125 B / count = 16 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 133 B / avg = 7 B
+# current buf: size = 8162 B / used = 133 B / count = 17 / avg = 7 B
 
-# strcache performance: lookups = 27 / hit rate = 40%
+# strcache performance: lookups = 28 / hit rate = 39%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Jun  2 00:06:54 2022
+# Load=17/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Thu Jun  2 00:21:52 2022
 
  
